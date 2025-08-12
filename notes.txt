@@ -1,0 +1,36 @@
+Git commands
+* cd - change directories
+* git init - initialises a github repository
+* tee/touch for creating files
+* git add . - adds all files in our directory to a git repository
+* git add filename - adds a single file to the staging area
+* git status - shows the status/description of the files inside the directory
+ 
+2 Areas of our Repository
+Staging and Index Area
+* where you add files before committing them. temporary place where you make all the changes you want before committing to the actual local repository
+
+Actual Repository
+
+Committing to a repository
+* git commit -m "First Change"
+
+
+adding my account
+* git config --global user.name "Tshepo Mpofu"
+* git config --global user.email "your-github-email@example.com"
+
+removing a file
+* git rm --cached tim.py
+
+Branches
+* git branch branchName - creates a new branch
+* git checkout branchName - moving to a branch of your choice
+
+Merging
+* move to the master branch first 
+* git merge otherBranchName
+* all the files indifferent will be overidden or added
+
+Remote Repository
+* git remote - lists remote repositories connected on your machine
