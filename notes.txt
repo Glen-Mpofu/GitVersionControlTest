@@ -44,3 +44,7 @@ Pulling repositories
 * make a directory where to store the files from git. mkdir DirectoryName
 * git init
 * git pull linktorepo
+
+undoing git init
+* rm -rf .git
+* this removes the git folder and return your folder to being a normal one not a git repo
