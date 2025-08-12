@@ -34,3 +34,13 @@ Merging
 
 Remote Repository
 * git remote - lists remote repositories connected on your machine
+* git remote add nameofrepo onlineLink
+
+Pushing files to the online repo 
+* git push -u nameofrepo branchname
+
+Pulling repositories
+* copy the link under Code - Clone on github
+* make a directory where to store the files from git. mkdir DirectoryName
+* git init
+* git pull linktorepo
